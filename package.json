@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "lint": "eslint --fix 'tests/**/*.js'",
-    "tset:seed": "node ./seed/product-seeder.js",
+    "test:seed": "node ./seed/product-seeder.js && node ./seed/user-seeder.js",
     "cy:open": "cd tests && npx cypress open --env configFile='beta'",
     "test:stub": "cd tests && npx cypress run --env configFile='beta' --spec ./cypress/integration/isolation-system/stub-response-data.spec.js",
     "test:parallel:failed": "cd tests && node ./cypress/integration/isolation-others/parallel-run.js",

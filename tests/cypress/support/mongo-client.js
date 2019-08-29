@@ -8,7 +8,6 @@ const query = async function (config, collectionName, callback) {
         keepAlive: true
       },
       function(err, client) {
-        console.error('error: ' + err)
         err ? reject(err) : resolve(client)
       }
     )
@@ -22,7 +21,7 @@ const query = async function (config, collectionName, callback) {
 
       return promise
     })
-    .catch(err => console.error('error: ' + err))
+    .catch(err => console.error('error (mongo-client): ' + err))
 }
 
 module.exports = {

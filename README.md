@@ -22,15 +22,13 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
   cd testCorner-Cypress
   npm install && npm install -g npx
   ```
+- Seeding initial data:
+  ```
+  npm run test:seed
+  ```
 - To start application server
   ```
   npm run start
-  ```
-- Seeding initial data:
-
-  ```
-  node seed/product-seeder.js
-  node seed/user-seeder.js
   ```
 - open localhost:3000
 
@@ -43,9 +41,9 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 
 - Cypress test runner and shoppingCart application introduction
 - Selector playground: login & checkout form
-- API Request: login with RESTful API
+- API request: login with RESTful API
 - Custom command: login & checkout commands
-- Test Isolation: cy.task, testContext & show intention
+- Test isolation: cy.task, testContext & show intention
 
 ## Materials
 
@@ -68,7 +66,7 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
 - Reset database seems to be a solution ❓❓❓
   - Reset data is destructive
   - Prohibit parallel execution
-- Provision multiple set of environment?
+- Provision multiple sets of environment?
   - cost ⬆️ 💸💸💸
   - need to merge test results
 
