@@ -1,0 +1,47 @@
+.main {
+  margin-top: 10px;
+}
+
+.thumbnail img {
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
+
+.thumbnail description {
+  color: #7f7f7f;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+.stock {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+.cart img {
+  width: 95%;
+  height: 95%;
+  padding: 0 16px;
+}
+
+.price-cart {
+  margin-right: 20px;
+}
+
+.border {
+  border-color: 2px solid red;
+}
+
+.checkout {
+  margin-top: 20px;
+}
+
+.total {
+  margin-left: auto;
+}

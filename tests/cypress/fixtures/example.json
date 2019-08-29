@@ -1,0 +1,62 @@
+{
+  "products": [
+    [
+      {
+        "_id": "5c4a83c471d09c3125654816",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/41w5Z5%2BRvFL._SX415_BO1,204,203,200_.jpg",
+        "title": "Explore It",
+        "description": "Explore It!: Reduce Risk and Increase Confidence with Exploratory Testing. Reading this book taught me new skills and heuristics; but even better, it helped me channel my tester spidey sense more creatively and usefully. I keep this book handy at all times and occasionally do one of the practice sessions to keep my awareness keen. Explore It! helps me make sure our customers and our company get real value from our software.",
+        "price": 25.52,
+        "stock": 8,
+        "__v": 0
+      },
+      {
+        "_id": "5c4a83c471d09c3125654817",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51d1qVhmAmL._SX373_BO1,204,203,200_.jpg",
+        "title": "Clean Code",
+        "description": "Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin Series). \"Clean Code\" is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code--of transforming a code base that has some problems into one that is sound and efficient.",
+        "price": 32.1,
+        "stock": 5,
+        "__v": 0
+      },
+      {
+        "_id": "5c4a83c471d09c312565481a",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/41odjJlPgHL._SX402_BO1,204,203,200_.jpg",
+        "title": "Refactoring",
+        "description": "Refactoring: Improving the Design of Existing Code (Addison-Wesley Signature Series (Fowler)). Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+        "price": 40.31,
+        "stock": 5,
+        "__v": 0
+      }
+    ],
+    [
+      {
+        "_id": "5c4a83c471d09c3125654819",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51fryQrNMSL.jpg",
+        "title": "Accelerate: The Science of Lean Software and DevOps",
+        "description": "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. How can we apply technology to drive business value? For years, we've been told that the performance of software delivery teams doesn't matter―that it can't provide a competitive advantage to our companies. ",
+        "price": 11.22,
+        "stock": 5,
+        "__v": 0
+      },
+      {
+        "_id": "5c4a83c471d09c3125654818",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/51QKN9jHjzL._SX331_BO1,204,203,200_.jpg",
+        "title": "User Story Mapping: Discover the Whole Story, Build the Right Product",
+        "description": "User story mapping is a valuable tool for software development, once you understand why and how to use it. This insightful book examines how this often misunderstood technique can help your team stay focused on users and their needs without getting lost in the enthusiasm for individual product features.",
+        "price": 17.84,
+        "stock": 5,
+        "__v": 0
+      },
+      {
+        "_id": "5c4a83c471d09c312565481b",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/416458RpfDL._SX384_BO1,204,203,200_.jpg",
+        "title": "Essential Scrum",
+        "description": "A Practical Guide to the Most Popular Agile Process. Essential Scrum will provide every team member, manager, and executive with a common understanding of Scrum, a shared vocabulary they can use in applying it, and practical knowledge for deriving maximum value from it.",
+        "price": 31.48,
+        "stock": 5,
+        "__v": 0
+      }
+    ]
+  ]
+}

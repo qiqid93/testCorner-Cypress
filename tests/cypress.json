@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "video": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 1024,
+  "ignorexxxTestFiles": [
+    "*parallel-run*.js",
+    "answer.**.spec.js",
+    "*answer.spec.js"
+  ],
+  "env": {},
+  "$schema": "https://on.cypress.io/cypress.schema.json"
+}

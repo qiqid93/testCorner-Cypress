@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div id="success" class="alert {{#if successMgs}}alert-success{{else}}alert-danger{{/if}} {{#if noMessage}}invisible{{/if}}">
+            {{ successMgs }}{{ errorMgs }}
+        </div>
+    </div>
+</div>
+
+<ul id="container" class="cfxx"></ul>
+<script id="ourTemplate" type="text/x-handlebars-template">
+    \{{# each products }}
+        <div class="row">
+            \{{# each this}}
+                <div class="col-sm-6 col-md-4 main">
+                    <div class="card thumbnail" style="width: 20rem;">
+                        <img class="card-img-top shop-image  img-fluid" src="\{{ this.imagePath }}" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">\{{ this.title }}</h4>
+                            <p class="card-text description">
+                                \{{ this.description }}
+                            </p>
+                            <div class="clearfix">
+                                <table><tr>
+                                    <td>
+                                        <div class="price pull-left">Price: $\{{ this.price }}</div>
+                                    </td>
+                                    <td>
+                                        <div class="stock pull-left">Stock: \{{ this.stock }}</div>
+                                    </td>
+                                    <td>
+                                        <a href="/add-to-cart/\{{this._id}}" class="cart pull-right">
+                                            <!--<i class="fa fa-plus" aria-hidden="true"></i> Add to shopping cart-->
+                                            <img class="cart pull-right" src="images/icons8-add-shopping-cart-40.png">
+                                        </a>
+                                    </td>
+                                </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            \{{/each}}
+        </div>
+    \{{/each}}
+
+</script>
+
+<script>
+    $.ajax({
+        url: "/prod"
+    })
+    .done(function(resp) {
+        createHtml(resp);
+    })
+
+
+    // Function to generate the HTML
+    function createHtml(ourData) { // ourData is just a parameter and can be named anything
+        let rawTemplate = document.querySelector("#ourTemplate").innerHTML;
+        let compiledTemplate = Handlebars.compile(rawTemplate);
+        let ourGeneratedHTML = compiledTemplate(ourData);
+        let ourContainer = document.querySelector("#container");
+        ourContainer.innerHTML = ourGeneratedHTML;
+    }
+
+</script>
