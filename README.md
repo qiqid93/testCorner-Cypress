@@ -30,8 +30,12 @@ docker run -d -p 27017:27017 --name mongo_cart mongo:4.0.5
   ```
   npm run start
   ```
-- open localhost:3000
+- Open localhost:3000 in your browser
 
+- To open Cypress test runner
+  ```
+  npm run cy:open
+  ```
 ## Testing Folder Structure
 
 - Cypress test cases: /tests/cypress/integration
