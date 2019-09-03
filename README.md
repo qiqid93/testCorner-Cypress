@@ -1,4 +1,4 @@
-# Workshop: Cypress.io handson and Test Isolation
+# Workshop: Cypress.io Handson and Test Isolation
 
 Origin App was forked from [ruslanzharkov/nodejs-shopping-cart](https://github.com/ruslanzharkov/nodejs-shopping-cart)
 
