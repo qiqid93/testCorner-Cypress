@@ -3,7 +3,7 @@
   "video": false,
   "viewportWidth": 1000,
   "viewportHeight": 1024,
-  "ignoreTestFiles": [
+  "ignorexxxTestFiles": [
     "*parallel-run*.js",
     "answer.**.spec.js",
     "*answer.spec.js"
